@@ -18,15 +18,15 @@ namespace SoftCaribbeanSystem.Api.Controllers
         [HttpPost("create")]
         public IActionResult CreatePerson([FromBody] Person request)
         {
-            _personService.CreatePerson(request);
-            return Ok("Person created");
+            var response = _personService.CreatePerson(request);
+            return Ok(response);
         }
 
         [HttpPut("update")]
         public IActionResult UpdatePerson([FromBody] Person request)
         {
-            _personService.UpdatePerson(request);
-            return Ok("Person updated");
+            var response = _personService.UpdatePerson(request);
+            return Ok(response);
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using SoftCaribbeanSystem.Model.Base.Entity;
-using SoftCaribbeanSystem.Model.Enums;
 using System;
 
 namespace SoftCaribbeanSystem.Model.Entities
@@ -10,7 +9,8 @@ namespace SoftCaribbeanSystem.Model.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
-        public PersonTypeEnum PersonType { get; set; }
+        public int PersonTypeId { get; set; }
+        public PersonType PersonType { get; set; }
         public string Genre { get; set; }
         public DateTime LeavingDate { get; set; }
         public string CodUser { get; set; }

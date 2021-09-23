@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SoftCaribbeanSystem.Infraestructure.Base.Context;
 
 namespace SoftCaribbeanSystem.Infraestructure.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210923170721_Add-PersonType-Table")]
+    partial class AddPersonTypeTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -129,26 +131,6 @@ namespace SoftCaribbeanSystem.Infraestructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("PersonType");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(2021, 9, 23, 12, 25, 22, 405, DateTimeKind.Local).AddTicks(2699),
-                            Name = "Employee"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(2021, 9, 23, 12, 25, 22, 406, DateTimeKind.Local).AddTicks(6865),
-                            Name = "Patient"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(2021, 9, 23, 12, 25, 22, 406, DateTimeKind.Local).AddTicks(6889),
-                            Name = "Worker"
-                        });
                 });
 
             modelBuilder.Entity("SoftCaribbeanSystem.Model.Entities.Patient", b =>

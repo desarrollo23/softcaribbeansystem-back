@@ -2,6 +2,7 @@ C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\bin\
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\bin\Debug\net5.0\SoftCaribbeanSystem.Common.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\bin\Debug\net5.0\ref\SoftCaribbeanSystem.Common.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\bin\Debug\net5.0\SoftCaribbeanSystem.Common.pdb
+C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\obj\Debug\net5.0\SoftCaribbeanSystem.Common.csproj.AssemblyReference.cache
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\obj\Debug\net5.0\SoftCaribbeanSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\obj\Debug\net5.0\SoftCaribbeanSystem.Common.AssemblyInfoInputs.cache
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Common\obj\Debug\net5.0\SoftCaribbeanSystem.Common.AssemblyInfo.cs

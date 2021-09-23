@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SoftCaribbeanSystem.Infraestructure.Migrations.Seeds;
 using SoftCaribbeanSystem.Model.Entities;
 
 namespace SoftCaribbeanSystem.Infraestructure.Base.Context
@@ -13,5 +14,11 @@ namespace SoftCaribbeanSystem.Infraestructure.Base.Context
 
         public DbSet<Person> Person { get; set; }
         public DbSet<Patient> Patient { get; set; }
+        public DbSet<PersonType> PersonType { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
     }
 }
