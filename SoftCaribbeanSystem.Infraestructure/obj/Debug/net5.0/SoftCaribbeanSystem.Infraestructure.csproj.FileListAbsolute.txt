@@ -4,7 +4,9 @@ C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestruc
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Infraestructure.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\ref\SoftCaribbeanSystem.Infraestructure.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Infraestructure.pdb
+C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Common.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Model.dll
+C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Common.pdb
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\bin\Debug\net5.0\SoftCaribbeanSystem.Model.pdb
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\obj\Debug\net5.0\SoftCaribbeanSystem.Infraestructure.csproj.AssemblyReference.cache
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Infraestructure\obj\Debug\net5.0\SoftCaribbeanSystem.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig

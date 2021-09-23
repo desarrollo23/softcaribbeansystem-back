@@ -1594,12 +1594,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "SoftCaribbeanSystem.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SoftCaribbeanSystem.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoftCaribbeanSystem.Common.dll": {}
+        }
+      },
       "SoftCaribbeanSystem.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
+          "SoftCaribbeanSystem.Common": "1.0.0",
           "SoftCaribbeanSystem.Model": "1.0.0"
         },
         "compile": {
@@ -1623,6 +1634,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "SoftCaribbeanSystem.Common": "1.0.0",
           "SoftCaribbeanSystem.Model": "1.0.0"
         },
         "compile": {
@@ -6006,6 +6018,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SoftCaribbeanSystem.Common/1.0.0": {
+      "type": "project",
+      "path": "../SoftCaribbeanSystem.Common/SoftCaribbeanSystem.Common.csproj",
+      "msbuildProject": "../SoftCaribbeanSystem.Common/SoftCaribbeanSystem.Common.csproj"
     },
     "SoftCaribbeanSystem.Infraestructure/1.0.0": {
       "type": "project",

@@ -2,7 +2,9 @@ C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Service.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\ref\SoftCaribbeanSystem.Service.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Service.pdb
+C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Common.dll
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Model.dll
+C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Common.pdb
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\bin\Debug\net5.0\SoftCaribbeanSystem.Model.pdb
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\obj\Debug\net5.0\SoftCaribbeanSystem.Service.csproj.AssemblyReference.cache
 C:\Users\Andres\source\repos\SoftCaribbeanSystem\SoftCaribbeanSystem.Service\obj\Debug\net5.0\SoftCaribbeanSystem.Service.GeneratedMSBuildEditorConfig.editorconfig

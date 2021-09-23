@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftCaribbeanSystem.Infraes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftCaribbeanSystem.Service", "SoftCaribbeanSystem.Service\SoftCaribbeanSystem.Service.csproj", "{A3A755DD-CA0B-4FEF-A4D7-80EB640D4A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftCaribbeanSystem.Common", "SoftCaribbeanSystem.Common\SoftCaribbeanSystem.Common.csproj", "{6F5F205F-8A17-4589-B913-8F0ADBA841EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A3A755DD-CA0B-4FEF-A4D7-80EB640D4A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3A755DD-CA0B-4FEF-A4D7-80EB640D4A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3A755DD-CA0B-4FEF-A4D7-80EB640D4A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5F205F-8A17-4589-B913-8F0ADBA841EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5F205F-8A17-4589-B913-8F0ADBA841EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5F205F-8A17-4589-B913-8F0ADBA841EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5F205F-8A17-4589-B913-8F0ADBA841EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

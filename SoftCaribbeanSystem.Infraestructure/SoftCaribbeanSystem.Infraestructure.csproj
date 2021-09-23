@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SoftCaribbeanSystem.Common\SoftCaribbeanSystem.Common.csproj" />
     <ProjectReference Include="..\SoftCaribbeanSystem.Model\SoftCaribbeanSystem.Model.csproj" />
   </ItemGroup>
 

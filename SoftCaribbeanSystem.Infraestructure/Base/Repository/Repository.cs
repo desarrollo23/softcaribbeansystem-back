@@ -1,4 +1,6 @@
-﻿using SoftCaribbeanSystem.Infraestructure.Base.Context;
+﻿using Microsoft.Data.SqlClient;
+using SoftCaribbeanSystem.Common.Exceptions;
+using SoftCaribbeanSystem.Infraestructure.Base.Context;
 using SoftCaribbeanSystem.Model.Base.Entity;
 using SoftCaribbeanSystem.Model.Base.Interfaces;
 using System;
@@ -18,40 +20,85 @@ namespace SoftCaribbeanSystem.Infraestructure.Base.Repository
         }
         public void Add(T entity)
         {
-            _myDbContext.Add(entity);
-            _myDbContext.SaveChanges();
+            try
+            {
+                _myDbContext.Add(entity);
+                _myDbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }
         }
 
         public virtual void Delete(int id)
         {
-            var entity = _myDbContext.Set<T>().FirstOrDefault(x => x.Id == id);
-
-            if (entity != null)
+            try
             {
-                _myDbContext.Remove(entity);
-                _myDbContext.SaveChanges();
+                var entity = _myDbContext.Set<T>().FirstOrDefault(x => x.Id == id);
+
+                if (entity != null)
+                {
+                    _myDbContext.Remove(entity);
+                    _myDbContext.SaveChanges();
+                }
             }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }   
         }
 
         public virtual IList<T> FindAll()
         {
-            return _myDbContext.Set<T>().ToList();
+            try
+            {
+                return _myDbContext.Set<T>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }
+            
         }
 
         public virtual T FindById(int id)
         {
-            return _myDbContext.Set<T>().FirstOrDefault(x => x.Id == id);
+            try
+            {
+                return _myDbContext.Set<T>().FirstOrDefault(x => x.Id == id);
+            }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }
+            
         }
 
         public virtual void Update(T entity)
         {
-            _myDbContext.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            _myDbContext.SaveChanges();
+            try
+            {
+                _myDbContext.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                _myDbContext.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }
         }
 
         public virtual T FindBy(Func<T, bool> predicate)
         {
-            return _myDbContext.Set<T>().FirstOrDefault(predicate);
+            try
+            {
+                return _myDbContext.Set<T>().FirstOrDefault(predicate);
+            }
+            catch (Exception ex)
+            {
+                throw new EntityException(ex.Message, ex);
+            }
+            
         }
     }
 }
